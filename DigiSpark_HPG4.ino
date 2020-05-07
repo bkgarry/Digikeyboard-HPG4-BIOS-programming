@@ -7,7 +7,7 @@
 #define KEY_LEFT_ARROW      0x50
 #define KEY_RIGHT_ARROW     0x4F
 
-String bios_password = "p3nt1um";
+String bios_password = "ENTER PASSWORD HERE";
 int keyWait = 275;
 
 void setup() {
