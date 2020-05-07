@@ -1,0 +1,14 @@
+This works in combination with the two modified files from the repository https://github.com/bkgarry/DigikeyboardBIOS
+
+You should be able to copy this into the Arduino IDE to use with a digspart to program the functions below
+
+Important - Modify String bios_password = "ENTER PASSWORD HERE"; by replacing ENTER PASSWORD HERE (keep the quote marks to set your desired password)
+
+The script is designed that you boot into the BIOS and then insert your digispark to perform the following steps
+- Go to the security screen
+- Set the BIOS password witht he bios_password string declared at the top
+- go to the Boot Options Screen
+- Enable Network Boot
+- Change UEFI Network boot to IPV4 only
+- Change Network Boot to first boot device
+- Save changes and restart
